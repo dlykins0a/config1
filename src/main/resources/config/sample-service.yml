@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://discovery1-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/eureka/
+      defaultZone: http://localhost:8761/eureka/
       
 logging:
   pattern: 
