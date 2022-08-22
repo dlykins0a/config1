@@ -1,10 +1,10 @@
 server:
-  port: 8080
+  port: 8060
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://discovery1-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/eureka/
+      defaultZone: http://localhost:8061/eureka/
 
 logging:
   pattern: 
