@@ -1,9 +1,9 @@
 server:
-  port: 8061
+  port: 8761
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: discovery1-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us
   client:
     registerWithEureka: false
     fetchRegistry: false
