@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: discovery1-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us
+    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
