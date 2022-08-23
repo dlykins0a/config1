@@ -3,9 +3,9 @@ server:
 
 eureka:
   instance:
-    hostname: discovery1-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us
+    hostname: discovery-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: https://discovery1-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/eureka/
+      defaultZone: https://discovery-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/eureka/
