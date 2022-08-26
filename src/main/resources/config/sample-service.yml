@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: https://discovery-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/
+    hostname: https://discovery-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us
   client:
     serviceUrl:
       defaultZone: https://discovery-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/eureka/
