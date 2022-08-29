@@ -8,4 +8,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: https://discovery-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/eureka/
+      defaultZone: http://localhost:8061/eureka/
