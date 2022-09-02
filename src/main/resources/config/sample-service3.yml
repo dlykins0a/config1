@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: sample-microservice-2v3-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us
+    hostname: sample-microservice-3-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us
   client:
     serviceUrl:
       defaultZone: https://discovery-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/eureka/
