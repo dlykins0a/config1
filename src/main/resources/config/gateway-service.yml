@@ -29,3 +29,27 @@ spring:
         - Path=/sample2/**
         filters:
         - RewritePath=/sample2/(?<path>.*), /$\{path}
+      - id: sample-service2
+        uri: lb://sample-service3
+        predicates:
+        - Path=/sample3/**
+        filters:
+        - RewritePath=/sample3/(?<path>.*), /$\{path}
+      - id: sample-service2
+        uri: lb://sample-service3
+        predicates:
+        - Path=/sample3/**
+        filters:
+        - RewritePath=/sample3/(?<path>.*), /$\{path}
+      - id: sample-service4
+        uri: lb://sample-service4
+        predicates:
+        - Path=/sample4/**
+        filters:
+        - RewritePath=/sample4/(?<path>.*), /$\{path}
+      - id: sample-service5
+        uri: lb://sample-service5
+        predicates:
+        - Path=/sample5/**
+        filters:
+        - RewritePath=/sample5/(?<path>.*), /$\{path}
