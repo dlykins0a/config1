@@ -29,13 +29,7 @@ spring:
         - Path=/sample2/**
         filters:
         - RewritePath=/sample2/(?<path>.*), /$\{path}
-      - id: sample-service2
-        uri: lb://sample-service3
-        predicates:
-        - Path=/sample3/**
-        filters:
-        - RewritePath=/sample3/(?<path>.*), /$\{path}
-      - id: sample-service2
+      - id: sample-service3
         uri: lb://sample-service3
         predicates:
         - Path=/sample3/**
