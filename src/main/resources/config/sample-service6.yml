@@ -1,1 +1,13 @@
+server:
+  port: 9006
 
+eureka:
+  instance:
+    hostname: 172.30.235.200
+  client:
+    serviceUrl:
+      defaultZone: https://discovery-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/eureka/
+      
+logging:
+  pattern: 
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
