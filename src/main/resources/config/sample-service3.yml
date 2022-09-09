@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: 172.30.235.200
+    hostname: sample-microservice-3v3.charles3.svc.cluster.local
   client:
     serviceUrl:
       defaultZone: discovery.charles3.svc.cluster.local
