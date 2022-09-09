@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: discovery.charles3.svc.cluster.local
+      defaultZone: discovery.charles3.svc.cluster.local/eureka/
 
 logging:
   pattern: 
