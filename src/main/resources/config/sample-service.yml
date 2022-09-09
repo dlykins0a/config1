@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: sample-service-1-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us
+    hostname: sample-service-1.charles3.svc.cluster.local
   client:
     serviceUrl:
       defaultZone: discovery.charles3.svc.cluster.local
