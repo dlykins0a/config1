@@ -6,7 +6,7 @@ eureka:
     hostname: sample-microservice-4-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us
   client:
     serviceUrl:
-      defaultZone: https://discovery-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/eureka/
+      defaultZone: discovery.charles3.svc.cluster.local
       
 logging:
   pattern: 
