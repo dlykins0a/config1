@@ -3,6 +3,7 @@ server:
 
 eureka:
   instance:
+    instance-id: ${spring.application.name}
     hostname: sample-microservice-3v3.charles3.svc.cluster.local
   client:
     serviceUrl:
