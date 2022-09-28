@@ -62,7 +62,7 @@ spring:
         filters:
         - RewritePath=/sample6/(?<path>.*), /$\{path}
       - id: fc-sample-service
-        uri: lb://sample-service6
+        uri: lb://fc-sample-service
         predicates:
         - Path=/fcSample/**
         filters:
