@@ -2,12 +2,12 @@ server:
   port: 9000
 
 eureka:
-  instance:
-    hostname: fc-sample-microservice.charles3.svc.cluster.local
   client:
     serviceUrl:
       defaultZone: https://discovery-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/eureka/
-      
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+   
 logging:
   pattern: 
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
