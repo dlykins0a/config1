@@ -1,0 +1,13 @@
+server:
+  port: 9000
+
+eureka:
+  instance:
+    hostname: sample-microservice-7.charles3.svc.cluster.local
+  client:
+    serviceUrl:
+      defaultZone: https://discovery-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/eureka/
+      
+logging:
+  pattern: 
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
